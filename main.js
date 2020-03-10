@@ -10,8 +10,8 @@ let win;
 
 function createWindow() {
   win = new BrowserWindow({
-    width: 600,
-    height: 600,
+    width: 250,
+    height: 500,
     backgroudColor: '#000',
     icon: `file://${{__dirname}}/dist/assets/log.png`
   })
